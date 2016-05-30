@@ -1,4 +1,4 @@
-package com.redbooth.hexagonalsample;
+package com.redbooth.hexagonalsample.view;
 
 import android.database.Cursor;
 

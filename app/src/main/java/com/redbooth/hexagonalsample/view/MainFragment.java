@@ -1,4 +1,4 @@
-package com.redbooth.hexagonalsample;
+package com.redbooth.hexagonalsample.view;
 
 import android.app.Fragment;
 import android.database.Cursor;
@@ -9,6 +9,11 @@ import android.view.ViewGroup;
 import android.widget.CursorAdapter;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
+
+import com.redbooth.hexagonalsample.model.FakeDatabase;
+import com.redbooth.hexagonalsample.R;
+import com.redbooth.hexagonalsample.presenter.MainPresenter;
+import com.redbooth.hexagonalsample.presenter.PresenterFactory;
 
 public class MainFragment extends Fragment implements MainView {
     private ListView listView;

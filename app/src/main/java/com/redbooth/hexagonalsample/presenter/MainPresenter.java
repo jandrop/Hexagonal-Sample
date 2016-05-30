@@ -1,7 +1,10 @@
-package com.redbooth.hexagonalsample;
+package com.redbooth.hexagonalsample.presenter;
 
 import android.content.Context;
 import android.database.Cursor;
+
+import com.redbooth.hexagonalsample.model.MainModel;
+import com.redbooth.hexagonalsample.view.MainView;
 
 public class MainPresenter {
     private MainView mainView;

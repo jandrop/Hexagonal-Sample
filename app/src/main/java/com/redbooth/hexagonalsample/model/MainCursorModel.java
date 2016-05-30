@@ -1,9 +1,11 @@
-package com.redbooth.hexagonalsample;
+package com.redbooth.hexagonalsample.model;
 
 import android.content.ContentResolver;
 import android.content.Context;
 import android.database.Cursor;
 import android.os.AsyncTask;
+
+import com.redbooth.hexagonalsample.presenter.MainPresenter;
 
 public class MainCursorModel implements MainModel {
     private MainPresenter presenter;

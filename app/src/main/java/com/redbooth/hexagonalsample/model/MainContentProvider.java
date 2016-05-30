@@ -1,4 +1,4 @@
-package com.redbooth.hexagonalsample;
+package com.redbooth.hexagonalsample.model;
 
 import android.content.ContentProvider;
 import android.content.ContentResolver;
@@ -16,7 +16,8 @@ public class MainContentProvider extends ContentProvider {
     public final static Uri URI = Uri.parse(URI_STRING);
 
     private static UriMatcher matcher;
-    {
+
+    static {
         matcher = new UriMatcher(UriMatcher.NO_MATCH);
         matcher.addURI(AUTHORITY, PATH, NAMES);
     }
