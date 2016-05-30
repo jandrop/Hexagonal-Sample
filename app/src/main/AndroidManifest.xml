@@ -20,7 +20,7 @@
 
         <provider
             android:authorities="com.redbooth.hexagonalsample"
-            android:name=".MainContentProvider"/>
+            android:name=".data.MainContentProvider"/>
 
     </application>
 

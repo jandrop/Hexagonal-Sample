@@ -13,6 +13,9 @@ import android.widget.CursorAdapter;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
+import com.redbooth.hexagonalsample.data.FakeDatabase;
+import com.redbooth.hexagonalsample.data.MainContentProvider;
+
 public class MainFragment extends Fragment {
     private ListView listView;
     private CursorAdapter listAdapter;
@@ -35,11 +38,11 @@ public class MainFragment extends Fragment {
     private void configureList() {
         listAdapter =
                 new SimpleCursorAdapter(getActivity(),
-                                        android.R.layout.simple_list_item_1,
-                                        null,
-                                        new String[]{FakeDatabase.COLUMN_NAME},
-                                        new int[]{android.R.id.text1},
-                                        0);
+                        android.R.layout.simple_list_item_1,
+                        null,
+                        new String[]{FakeDatabase.COLUMN_NAME},
+                        new int[]{android.R.id.text1},
+                        0);
         listView.setAdapter(listAdapter);
     }
 

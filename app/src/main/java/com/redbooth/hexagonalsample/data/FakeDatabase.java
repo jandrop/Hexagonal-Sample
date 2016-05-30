@@ -1,4 +1,4 @@
-package com.redbooth.hexagonalsample;
+package com.redbooth.hexagonalsample.data;
 
 import android.database.Cursor;
 import android.database.MatrixCursor;
